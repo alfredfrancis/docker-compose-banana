@@ -15,3 +15,4 @@ add/edit dashboards in dashboards/ directory
 docker-compose build
 docker-compose up -d
 ```
+for enabling cors, reffer to [Official banana Documentation](https://github.com/lucidworks/banana/tree/release/resources/enable-cors)
