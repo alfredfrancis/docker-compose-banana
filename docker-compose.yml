@@ -1,0 +1,10 @@
+version: '2'
+services:
+  banana:
+    build: banana/
+    command: npm start
+    volumes:
+      - ./config.js:/app/banana/src/config.js
+      - ./dashboards/:/app/banana/src/app/dashboards/
+    ports:
+        - '8015:8000'
